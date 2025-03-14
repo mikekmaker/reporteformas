@@ -50,7 +50,7 @@ namespace DevelopmentChallenge.Data.Classes
             {
                 sb = reporte.Header(sb);
                 sb = reporte.Body(sb);
-                sb = reporte.Footer(sb);
+                sb = reporte.Footer(sb); //agrego comentario
             }
 
             return sb.ToString();
